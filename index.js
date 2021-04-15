@@ -68,31 +68,3 @@ mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true, useUn
     .catch((err) => {
         console.log('Failed to add', err)
     }) 
-    
-
-
-// Create
-// you can also create here.It will still work
-
-//MyModel.insertMany    
-
-//Read
-
-
-//Update
-
-//Delete
-
-
-
-
-
-
-// let MySchema = new mongoose.Schema({
-//     name: {
-//         type: String
-//     },
-//     age: {
-//         type: Number
-//     }
-// })   
